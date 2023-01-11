@@ -19,11 +19,11 @@
 ## リモートに共有
 ### config設定
 ```
-  git config --global user.name "ayemohmohthu"
-  git config --global user.email "ayemohmohthu@seattleconsulting.co.jp"
+  git config --global user.name "xxxxx"
+  git config --global user.email "xxxxx"
 ```
 ### remote追加
-  ▼ git remote add origin https://github.com/ayemohmohthu/secondGit.git
+  ▼ git remote add origin https://github.com/ayemohmohthu/xxxxx.git
 ### origin already existsの場合
 ```
   git remote rm origin
@@ -32,7 +32,7 @@
 ### push
 ```
   git push -u origin master
-  上記でerror: failed to push some refs to 'https://github.com/ayemohmohthu/localGitTest.git'が発生したので
+  上記でerror: failed to push some refs to xxxxxxが発生したので
   git push origin master --forceで実行した。
 
   git push origin implement-app-base
